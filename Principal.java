@@ -9,10 +9,9 @@ public class Principal {
         Scanner sc = new Scanner(System.in);
         Metodos M=new Metodos();
         int n = 0;
-        int x= 0;
         System.out.println("ingrese la cantidad de numeros de serie");
         n = sc.nextInt();
-        ObjTeatro[][] m= new ObjTeatro[n][n];
+        ObjTeatro[] m= new ObjTeatro[n];
         m = M.LlenarMatriz(m);
         M.MostrarMatriz(m);
         
